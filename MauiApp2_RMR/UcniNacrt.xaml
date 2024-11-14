@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2_RMR.Views.UcniNacrt"
+             Title="Učni načrt"
+             BackgroundColor="White">
+    <VerticalStackLayout>
+
+        <Label></Label>
+        <Picker
+            x:Name="smerIzbira"
+            Title="Izberite smer"
+           SelectedIndexChanged="IzbranaSmer"
+            >
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Razvoj informacijskih storitev</x:String>
+                    <x:String>Sistemska podpora informatiki in tehnologijam komunciranja</x:String>
+                  
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <TableView x:Name="tableViewRis" Intent="Menu" BackgroundColor="#006385" IsVisible="false">
+            <TableRoot>
+                <TableSection Title="Predmeti - RIS" TextColor="White" x:Name="risSection">
+                 
+    
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
+        <TableView x:Name="tableViewSPI" Intent="Menu" BackgroundColor="#006385" IsVisible="false">
+            <TableRoot>
+                <TableSection Title="Predmeti - SPI" TextColor="White" x:Name="spiSection">
+                </TableSection>
+            </TableRoot>
+        </TableView>
+
+        <Button IsVisible="false"
+                x:Name="izbirniPredmeti"
+                Text="Info. o izbirnih predmetih"
+               
+                Clicked="izbirciInfo"
+                WidthRequest="200"
+                  Margin="5,20,0,0"
+                />
+
+        <Button IsVisible="true"
+                x:Name="spletnaStoritevBtn"
+                Text="Uporabniki"
+               
+                Clicked="spletneStortiveClicked"
+                WidthRequest="200"
+                  Margin="5,20,0,0"
+                />
+
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

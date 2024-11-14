@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2_RMR.MainPage"
+             BackgroundColor="White"
+             Title="Glavna stran"
+            
+             >
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+           
+
+            <Label
+                Text="Prijava"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="25"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"      
+                TextColor="#006385"
+                 Margin="10,0,0,0"/>
+
+            <Entry
+                x:Name="ImeEntry"
+                Placeholder="Vnesite elektronski naslov"
+                HorizontalOptions="FillAndExpand"
+                 Margin="10,20,0,0"
+                
+                />
+
+            <Entry
+                x:Name="PriimekEntry"
+                Placeholder="Vnesite geslo"
+                HorizontalOptions="FillAndExpand"
+                IsPassword="true" 
+                 Margin="10,0,0,0"
+                />
+
+
+
+            <Button
+                x:Name="prijavaBtn"
+                Text="Prijava"
+                SemanticProperties.Hint="Counts the number of times you click"
+               
+               Command="{Binding PrijavaBtn}"
+                WidthRequest="200"
+                  Margin="5,20,0,0"
+                />
+
+            <Button
+                x:Name="registracijaBtn"
+                Text="Registracija"
+              Clicked="registracijaClick"
+                WidthRequest="200"
+                  Margin="5,20,0,0"
+                />
+
+            <Button
+                x:Name="vizitkaBtn"
+                Text="vizitka"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnPojdiNaVizitko"
+                WidthRequest="200"
+                  Margin="5,20,0,0"
+                 BackgroundColor="LightBlue"
+                />
+
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

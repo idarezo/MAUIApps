@@ -1,0 +1,58 @@
+﻿{
+  "predmeti": [
+    {
+      "predmetId": "36de4ddd-7437-4e24-9bc5-1744aef9259d",
+      "Naziv": "upravljanje IKT",
+      "ECTS": 5,
+      "Semester": "Zimski"
+    },
+    {
+      "predmetId": "21a57bdc-4f23-4fde-8638-090ea6410a37",
+      "Naziv": "Razvoj informacijskih storitev",
+      "ECTS": 5,
+      "Semester": "Zimski"
+    },
+    {
+      "predmetId": "25e21b12-3f94-4394-8800-6e3ba4995bcf",
+      "Naziv": "Portali in sistemi znanja",
+      "ECTS": 5,
+      "Semester": "Zimski"
+    },
+    {
+      "predmetId": "039c5559-cd77-4965-af92-a0ef61fb36fe",
+      "Naziv": "Razvoj mobilnih resitev",
+      "ECTS": 5,
+      "Semester": "Zimski"
+    },
+    {
+      "predmetId": "636bbef8-c83b-4184-95b4-f69f0e4632d9",
+      "Naziv": "Sistemska podpora ITK",
+      "ECTS": 5,
+      "Semester": "Zimski"
+    },
+    {
+      "predmetId": "8cd08618-fbf4-4a06-9426-8da94b45dd94",
+      "Naziv": "Podatkovne baze dva",
+      "ECTS": 5,
+      "Semester": "Zimski"
+    },
+    {
+      "predmetId": "f5ca2c6d-f647-4be3-946c-89bc42736c86",
+      "Naziv": "Podatkovno skladiščenje",
+      "ECTS": 5,
+      "Semester": "Zimski"
+    },
+    {
+      "predmetId": "084d557c-277b-4cb7-a89d-179af96f9d99",
+      "Naziv": "Diplomsko delo",
+      "ECTS": 10,
+      "Semester": "Poletni"
+    },
+    {
+      "predmetId": "8c98f54b-714e-4560-97ac-35375d8cc4d0",
+      "Naziv": "Praktično usposabljanje",
+      "ECTS": 15,
+      "Semester": "Poletni"
+    }
+  ]
+}
